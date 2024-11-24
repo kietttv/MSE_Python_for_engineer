@@ -98,7 +98,6 @@ def validate_course_on_focus_out(event):
     else:
         error_label_level.config(text="")
 
-
 def validate_course_data():
     course_name = entry_course_name.get()
     course_code = entry_course_code.get()
